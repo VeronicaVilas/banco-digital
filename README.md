@@ -26,7 +26,9 @@ O sistema gerencia dois tipos de contas bancárias: conta corrente e conta poupa
 - Conta Corrente: Possui um limite de crédito inicial de R$ 500,00.
 - Conta Poupança: Oferece um rendimento de 10% sobre o valor depositado.
 
-O sistema oferece funcionalidades básicas, como depósito, saque e transferência entre contas da mesma instituição. Os valores das transações não são solicitados via terminal; em vez disso, são diretamente manipulados dentro da classe *Banco*. Para fins de demonstração, foram incluídas exibições prontas para uma conta corrente e uma conta poupança. Abaixo, segue um exemplo de uma conta poupança e o resultado obtido:
+O sistema oferece funcionalidades básicas, como depósito, saque e transferência entre contas da mesma instituição. Além disso, as agências e os números das contas são gerados aleatoriamente, seguindo o padrão de contas bancárias.
+
+Os valores das transações não são solicitados via terminal; em vez disso, são diretamente manipulados dentro da classe *Banco*. Para fins de demonstração, foram incluídas exibições prontas para uma conta corrente e uma conta poupança. Abaixo, segue um exemplo de uma conta poupança e o resultado obtido:
 
 - Dados inseridos:
     ```java
